@@ -1,95 +1,121 @@
-<!DOCTYPE html> 
+ <!DOCTYPE html>
+<html lang="en">
 
-<html lang="en"> 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Breadhouse Bakery</title>
 
-<head> 
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 
-    <meta charset="UTF-8"> 
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.ojh 
-    0"> 
+<body>
 
-    <title>About Us</title> 
-    
-    <!-- Bootstrap CSS --> 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"> 
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Breadhouse Bakery</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-    <!-- Custom CSS-->
-     <link rel="stylesheet" href="styles.css">
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="our-cakes.html">Our Cakes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
 
-</head> 
+  <section class="bg-light text-center py-5">
+    <div class="container">
+      <h1 class="display-4">Welcome to Breadhouse</h1>
+      <p class="lead">Delicious cakes baked fresh every day</p>
+      <a href="our-cakes.html" class="btn btn-primary btn-lg">Explore Our Cakes</a>
+    </div>
+  </section>
 
-<body> 
+  <!-- Main Content -->
+  <main class="container my-5">
+    <h2 class="text-center mb-4">Our Specialties</h2>
 
-<header> 
+    <div class="row">
+      <div class="col-md-4">
+        <img src="images/cake1.jpg" alt="Chocolate Cake" class="img-fluid rounded shadow mb-3">
+        <h5 class="text-center">Chocolate Delight</h5>
+      </div>
+      <div class="col-md-4">
+        <img src="images/cake2.jpg" alt="Vanilla Cake" class="img-fluid rounded shadow mb-3">
+        <h5 class="text-center">Classic Vanilla</h5>
+      </div>
+      <div class="col-md-4">
+        <img src="images/cake3.jpg" alt="Red Velvet Cake" class="img-fluid rounded shadow mb-3">
+        <h5 class="text-center">Red Velvet</h5>
+      </div>
+    </div>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark"> 
+    <p class="text-center mt-4">Try our cakes and let the taste speak for itself!</p>
+  </main>
 
-        <div class="container"> 
+  <!-- Menu Section -->
+  <section class="container my-5">
+    <h2 class="text-center mb-4">Our Menu</h2>
+    <div class="table-responsive">
+      <table class="table table-striped table-bordered text-center">
+        <thead class="table-dark">
+          <tr>
+            <th>Cake</th>
+            <th>Description</th>
+            <th>Price</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Chocolate Delight</td>
+            <td>Rich chocolate sponge layered with ganache</td>
+            <td>P90</td>
+          </tr>
+          <tr>
+            <td>Classic Vanilla</td>
+            <td>Light vanilla sponge with buttercream frosting</td>
+            <td>P86</td>
+          </tr>
+          <tr>
+            <td>Red Velvet</td>
+            <td>Moist red velvet cake with cream cheese frosting</td>
+            <td>P58</td>
+          </tr>
+          <tr>
+            <td>Fruit Cake</td>
+            <td>Traditional fruit cake packed with dried fruits</td>
+            <td>P100</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
 
-            <a class="navbar-brand" href="index.html">My Website</a> 
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    <p>&copy; 2026 Breadhouse Bakery | Designed by Marang</p>
+  </footer>
 
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"> 
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+</body>
 
-                <span class="navbar-toggler-icon"></span> 
-
-            </button> 
-
-            <div class="collapse navbar-collapse" id="navbarNav"> 
-
-                <ul class="navbar-nav"> 
-
-                    <li class="nav-item"> 
-
-                        <a class="nav-link" href="index.html">Home</a> 
-
-                    </li> 
-
-                    <li class="nav-item"> 
-
-                        <a class="nav-link" href="our.cakes.html">Our.cakes</a> 
-
-                    </li> 
-
-                    <li class="nav-item"> 
-
-                        <a class="nav-link" href="contact.html">Contact</a> 
-
-                    </li> 
-
-                </ul> 
-
-            </div> 
-
-        </div> 
-
-    </nav> 
-
-</header> 
-
-
-
-    <main class="container my -5">
-
-        <h2>Breadhouse cakes</h2>
-
-        <p>Discover our wide selection of freshley baked cakes, perfect for any celebration.</p> 
-        <img src="https://i.pinimg.com/originals/6f/83/9e/6f839e5b442c15a4ee4efa8261243a1a.jpg">
-    
-        <p>Try our cakes and let the taste speak for its own!</p> 
-
-    </main> 
-
-    <footer> 
-
-        <p>&copy; 2026 Marang</p> 
-
-    </footer> 
-<!-- Bootstrap JS and dependencies --> 
-
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script> 
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script> 
-</body> 
-
-</html> 
+</html>
