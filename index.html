@@ -1,103 +1,71 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to my breadhouse!</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to my breadhouse!</title>
 
-     <!-- Bootstrap CSS --> 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom CSS -->
-     <link rel="stylesheet" href="styles.css">
-</head> 
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
 
 <body>
-    
+  
 <header>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a href="#" class="navbar-brand">My Breadhouse</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-    <nav class="nav container"> 
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a href="#home" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
 
-        <div class="container"> 
+<main class="container my-5">
+  <div class="row">
+    <div class="col-md-8">
+      <h2>Welcome to My Breadhouse Website!</h2>
+      <p>Experience the taste of home at Breadhouse.</p>
 
-            <a href="#" class="nav__logo">My breadhouse</a> 
+      <img src="images/cake1.jpg" alt="Delicious cake" class="img-fluid rounded">
 
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"> 
+      <p class="mt-3">
+        Visit 
+        <a href="https://github.com" class="btn btn-primary">GitHub</a> 
+        to learn more about coding.
+      </p>
+    </div>
 
-                <span class="navbar-toggler-icon"></span> 
+    <div class="col-md-4">
+    </div>
+  </div>
+</main>
 
-            </button> 
+<footer class="bg-dark text-white text-center py-3">
+  <p>&copy; 2026 Marang</p>
+</footer>
 
-            <div class="nav__menu" id="nav__menu"> 
-
-                <ul class="nav__list"> 
-
-                    <li class="nav-item"> 
-
-                        <a href="#home" class="nav__link">Home</a> 
-
-                    </li> 
-
-                    <li class="nav-item">
-
-                        <a href="#about us" class="nav__link">About Us</a>
-
-                    </li>
-
-                    <li class="nav-item"> 
-
-                        <a href="#contact us" class="nav__link">Contact Us</a> 
-
-                    </li> 
-
-                </ul> 
-               
-                 <!-- Close button-->
-                 <div class="nav__close" id="nav-close">
-                    <i class="ri-close-line"></i>
-                
-                 </div>
-
-                <img src="c:\Users\ADMIN\Downloads\cake 1.webp" alt="image" class="nav__img_1">
-                <img src="c:\Users\ADMIN\Downloads\cake2.jpg" alt="image" class="img__2">
-
-        </div> 
-
-    </nav> 
-
-</header> 
-
-<main class="container my-5"> 
-
-    <div class="row"> 
-
-        <div class="col-md-8"> 
-
-            <h2>Welcome to My Breadhouse Website!</h2> 
-
-            <p>Experience the taste of home at Breadhouse.</p> 
-
-            <img src="https://tse2.mm.bing.net/th/id/OIP.78iUaz9Q2ehyplVgkDCcXwHaHa?rs=1&pid=ImgDetMain&o=7&rm=3=" alt="A cute kitten" class="img-fluid rounded"> 
-
-            <p class="mt-3">Visit <a href="https://github.com" class="btn btn-primary">GitHub</a> to learn more about coding.</p> 
-
-        </div> 
-
-        <div class="col-md-4"> 
-
-    </div> 
-
-</main> 
-
-    <footer>
-        <p>&copy; 2026 Marang</p>
-    </footer>
-<!-- Bootstrap JS and dependencies --> 
-
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script> 
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script> 
+<!-- Bootstrap JS and dependencies -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
 </body>
 </html>
 
